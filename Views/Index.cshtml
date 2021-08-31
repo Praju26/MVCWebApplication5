@@ -1,0 +1,26 @@
+﻿
+@model MVCWebApplication5.Models.Student
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table>
+    <tr>
+        <td><b>Student Id - </b></td>
+        <td>@Model.StudentId</td>
+    </tr>
+
+    <tr>
+        <td><b>Student Name - </b></td>
+        <td>@Model.Name</td>
+    </tr>
+
+    <tr>
+        <td><b>Student Marks - </b></td>
+        <td>@Model.TotalMarks</td>
+    </tr>
+</table>
+@{
+}
